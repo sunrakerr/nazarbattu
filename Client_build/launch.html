@@ -1,0 +1,69 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="launchcss.css">
+</head>
+<body>
+        <header>
+                <div class="option" id="closebut"> &times; </div>
+                <div class="option" id="minbut"> - </div>
+        </header>
+
+        <div class="left-div">
+                
+            <div class="bar2"></div>
+            <div class="news">Dev-Logs:</div>
+            <div class="news-div" id="newsdiv"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="top-div">
+            <input type="text" class="search" id="search"></input>
+            <button class="search-but" id="search-but">search</button>
+            
+
+            <div class="settings-text" id="settingstext">
+             Options   
+             <div class="settings-icon" id="settingsicon"></div>
+            </div>
+            <!--Options-->
+            <div class="drop" id="dropdown" style="display: none;">
+                <div class="op" id="connsole">Console</div>
+             
+                
+            </div>
+
+           
+        </div>
+        <div class="cons" id="console-win" style="display: none;">
+            <!--close button for window-->
+        <div class="conclose" id="concloser">&times;</div>
+        <div class="cons-output" id="cons-output"></div>
+        <input type = text class="cons-in" id="cons-in" placeholder="Console commands..">
+        <button class = "input-but" id="input-but">submit</button>  
+    </div>  
+         <div class="wall" id="wall">
+          
+         
+        <div class="endbar"></div>
+
+        </div>
+       
+    
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        
+      </script>
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-firestore.js"></script>
+  <script src="launcher_divs.js"></script>    
+    <script src="renderer.js"></script>
+    
+    <script src="launcher.js"></script>
+</body>
+</html>

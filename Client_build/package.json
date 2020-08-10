@@ -1,0 +1,17 @@
+{
+  "name": "launcher",
+  "version": "1.0.0",
+  "description": "Launcher for RuneCraft",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Aditya Shenoy",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.0.0",
+    "jquery": "^3.4.1",
+    "mysql": "^2.17.1",
+    "pip": "0.0.1"
+  }
+}

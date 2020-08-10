@@ -1,0 +1,224 @@
+
+body{
+    
+    color:#ffffff;
+    
+    background-size: cover;
+    font-family:'poppins' ;
+    background-repeat: no-repeat;
+}
+ header{
+    display: flex;
+    border-radius: 5px;
+    flex-direction:  row-reverse;
+    justify-content: flex-start;
+    background-color: #42464d;
+    color: #ffffff;
+    height: 45px;
+    align-self: stretch;
+    
+    -webkit-app-region: drag;
+
+ }
+
+.main-card{
+    
+    display: flex;
+    margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+
+    
+}
+ .log-card{
+    animation: slow 1.5s;
+    border: 2px dashed #afbde8;
+    width: 60%;
+    height: 85%;
+    background-color: rgba(19,22,24,0.8);
+    border-radius: 20px;
+    box-shadow: 8px 8px #010102;
+    padding: 20px;
+    
+ }
+
+ @keyframes slow{
+from{
+    opacity: 0;
+    transform: rotateX(-10deg);
+
+}
+to{
+opacity: 1;
+transform: rotateX(0);
+
+}
+ }
+
+
+ h1{
+     border:3px dashed whitesmoke;
+     
+     background-color: #7958f0;
+     width: 60%;
+    border-radius: 30px;
+        
+     height: 45px;
+     font-family: 'Minecraft';
+     text-align: center;
+     font-size: 50px;
+     -webkit-text-stroke: 1.5px black;
+     text-shadow: #282b30 4px 4px 3px;
+ }
+
+.login-form{
+    color:#7289d9;
+    padding: 10px;
+     height: 80%;
+     
+    font-size:15px;
+}
+.edit{
+    display: block;
+    margin-bottom: 5%;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 5%;
+    
+    border-radius: 5px;
+    width: 90%;
+    color: rgb(211, 217, 223);
+    font-size: 15px;
+    height: 40px;
+    background: #282b30;
+    border: 0;
+}
+
+h2{
+font-size: 30px;
+font-family: 'Minecraft';
+font-weight: 800;
+text-shadow: black 3px 3px 3px ;
+}
+
+input[type=email], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+input[type=email]:focus, textarea:focus {
+    box-shadow: 0 0 7px rgba(81, 203, 238, 1);
+    
+  }
+
+  input[type=password], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+input[type=password]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    
+  }
+input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color:rgba(222, 233, 233,0.5); 
+
+} 
+
+
+input[type="password"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color:rgba(222, 233, 233,0.5); 
+
+} 
+
+input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color:rgba(222, 233, 233,0.5); 
+
+} 
+
+@font-face{
+font-family: Minecraft;
+src: url('/custFonts/runescape_uf.ttf');
+
+}
+@font-face{
+    font-family: poppins;
+    src: url('/custFonts/Poppins-Medium.ttf');
+    
+    }
+
+.reg-edit,a
+{
+    
+font-size: 13px;
+text-decoration: none;
+color: #316acc;
+}
+
+a:hover{
+    color:#9e9fa1;
+    text-decoration: underline;
+}
+
+.button
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 35px;
+    outline: 0;
+    font-size: 15px;
+   /* color: #697fcb;
+    
+    background-color: #282b30;
+    */
+    background-color: #697fcb;
+    border-radius: 32px;
+    border: 2px solid #697fcb;
+    font-weight: 700;
+}
+
+.button:hover{
+    background: rgb(24, 23, 23);
+    color: #697fcb;
+
+    outline:none;    
+        
+}
+
+#ttest{
+    margin-top: 7px;
+ font-size: 10px;
+ color:red;
+
+}
+ .option{
+     padding-top: 0;
+     float:right;
+     height: 45px;
+     border-radius: 5px;
+     width:40px;
+     vertical-align: middle;
+     text-align: center;
+     font-size: 2rem;
+     cursor: pointer;
+     -webkit-app-region: no-drag;
+     
+ }
+
+
+.option:hover{
+    background:#afbde8 ;
+}
+
+
+#closebut:hover{
+    background: rgb(241, 45, 45);
+}

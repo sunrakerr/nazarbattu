@@ -1,0 +1,28 @@
+*<u>fix 0.0.7</u><br>
+-fixed sync error
+<br>
+<br>
+*<u>fix 0.0.6</u><br>
+-resolved user entry table
+<br>
+<br>
+*<u>fix 0.0.5</u><br>
+-fixed port problem
+<br>
+<br>
+*<u>fix 0.0.4</u><br>
+-added new sound track
+<br>
+<br>
+*<u>fix 0.0.3</u><br>
+-fixed button disabler
+<br>
+<br>
+*<u>fix 0.0.2</u><br>
+-fixed buggy title bar
+<br>
+<br>
+*<u>fix 0.0.1</u><br>
+-fixed connectivity
+<br>
+<br>
