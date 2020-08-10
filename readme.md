@@ -1,5 +1,5 @@
 # NazarBattu (Alpha build)
-### A smart surveillance system with face detection and object recognition.
+### A smart surveillance system with face recognitionand object detection.
 ---
 #### File Structure
 > Find the electron app in `Client_build` \
