@@ -1,7 +1,7 @@
 # NazarBattu (Alpha build)
 
 ## File Structure
-> Find the electron app in `Client_build` 
+> Find the electron app in `Client_build` \
 > Find the python server in `Server_App`
 
 **Link to presentation**
