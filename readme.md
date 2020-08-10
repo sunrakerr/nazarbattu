@@ -1,6 +1,6 @@
 # NazarBattu (Alpha build)
-
-## File Structure
+### A smart surveillance system with face detection and object recognition.
+#### File Structure
 > Find the electron app in `Client_build` \
 > Find the python server in `Server_App`
 
