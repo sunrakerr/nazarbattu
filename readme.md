@@ -1,4 +1,4 @@
-# NazarBattu (Alpha build)
+# NazarBattu (Alpha build) :camera:
 ### A smart surveillance system with face recognition and object detection.
 ---
 #### File Structure
